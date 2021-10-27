@@ -1,0 +1,394 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #EFEFEF;
+}
+.style{
+    color: rgb(62, 112, 112);
+    font-size: 6rem;
+    width: 10px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    background: rgb(162, 206, 202);
+    align-items: center;
+    position: sticky ;
+    top: 0;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+li:hover{
+    background: rgb(137, 137, 212);
+    border-radius: 2px;
+}
+a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+}
+.contener{
+    color: rgb(240, 240, 240);
+    font-size: 50px;
+    height: 55vh;
+    width: 100%;
+    background-image: url(/images/head.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    height: 8vh;
+    width: 23%;
+    position: absolute;
+    background: rgb(247, 243, 24);
+    margin-top: auto;
+    font-size: 26px;
+    clip-path: polygon(0% 0%, 75% 0%, 82% 50%, 75% 100%, 0% 100%);
+}
+input[type="research"]{
+    height: 4vh;
+    width: 25%;
+    text-align: center;
+    background: rgb(168, 159, 161);
+    border: solid 1px rgb(24, 24, 24);
+    border-radius: 15px;
+    
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.control{
+    display: flex;
+    justify-content: center;
+}
+img{
+    padding: 10px;
+    width: 250px;
+    height: 30vh;
+}
+.picture{
+
+    height: 43vh;
+    margin: 10px;
+    background: rgb(211, 208, 208);
+    border: solid 2px rgb(104, 103, 103);
+}
+p{
+    margin-top: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cuters{
+    align-items: center;
+    display: flex;
+    justify-content: start;
+}
+
+.share1{
+    height: 8vh;
+    width: 100%;
+    font-size: 37px;
+    background: rgb(235, 136, 43);
+    clip-path: polygon(0% 0%, 66% 0, 63.8% 45%, 61% 100%, 0% 100%);
+}
+.share2{
+    width: 80%;
+    height: 8vh;
+    margin-top: 10px;
+    background: orange;
+    font-size: 32px;
+    clip-path: polygon(0% 0%, 66% 0, 64% 43%, 61% 100%, 0% 100%);
+}
+button{
+    margin-left: 15%;
+    height: 7vh;
+    margin-top: 10px;
+    width: 20%;
+    font-size: 18px;
+    border-radius: 7px;
+    text-transform: uppercase;
+    background: rgb(73, 173, 173);
+}
+.under{
+    display: flex;
+}
+.boths{
+    width: 60%;
+}
+.glove{
+    width: 40%;
+    display: flex;
+}
+.unit{
+    border-radius: 8px;
+    margin: 5px;
+    background: rgb(143, 173, 173);
+}
+.img{
+    width: 80%;
+    height: 15vh;
+    border-radius: 13px;
+}
+.help{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* =============================Servies-page======================>>>>>>> */
+.helper{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.mycontainer{
+    height: 50vh;
+    background-image: url(/images/cover.png);
+}
+.paragrap{
+    font-size: 3.5rem;
+    color: rgb(243, 240, 240);
+}
+.photos{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.clickme{
+    height: 6vh;
+    width: 15%;
+    margin-left: 45%;
+    background: rgb(76, 153, 153);
+}
+.myshowpictur{
+    width: 100%;
+    display: flex;
+}
+.showpic1{
+    padding: 10px;
+    width: 15%;
+    height: 28vh;
+    margin: 10px;
+    border-radius: 3px;
+    background: rgba(90, 190, 184, 0.418);
+}
+p{
+    font-size: 18px;
+}
+.takefour{
+    width: 100%;
+    height: 20vh;
+    border-radius: 3px;
+}
+.makecenter{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+    color: rgb(38, 95, 124);
+
+}
+.pict1{
+    background-image: url(/images/New\ Project.png);
+}
+.pict2{
+    background-image: url(/images/New\ Project\ \(1\).png);
+}
+.pict3{
+    background-image: url(/images/New\ Project\ \(2\).png);
+}
+.pict4{
+    background-image: url(/images/New\ Project\ \(4\).png);
+}
+.mymanybox{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.mainer{
+    display: flex;
+}
+.mymainer1,
+.mymainer2{
+    width: 50%;
+}
+.mainer{
+    margin: 15px;
+    display: flex;
+    width: 95%;
+}
+.keper{
+    border: solid 1px rgb(66, 163, 163);
+    margin: 5px;
+    width: 13%;
+    height: 13vh;
+    background: teal;
+}
+.phara{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    height: 13vh;
+    width: 78%;
+    font-size: 20px;
+    border-radius: 3px;
+    background: #dde74b;
+    color: rgb(26, 70, 82);
+    clip-path: polygon(0% 0%, 89% 0, 94% 43%, 100% 100%, 0% 100%);
+}
+.showkep1{
+    background-image: url(/images/p1.png);
+}
+.showkep2{
+    background-image: url(/images/p2.png);
+}
+.showkep3{
+    background-image: url(/images/p3.png);
+}
+.showkep4{
+    background-image: url(/images/p4.png);
+}
+.showkep5{
+    background-image: url(/images/p5.png);
+}
+.showkep6{
+    background-image: url(/images/p6.png);
+}
+.coms{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.captional{
+    justify-content:start;
+    display: flex;
+}
+footer{
+    background: rgb(165, 207, 231);
+    width: 65%;
+    height: 9vh;
+    font-size: 20px;
+    margin-left: 15%;
+    clip-path: polygon(93% 0, 100% 50%, 94% 100%, 6% 100%, 0 50%, 6% 0);
+}
+
+/* ======================================= Contact page===================>>>>>>>> */
+
+.yourinformation{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    text-transform: capitalize;
+}
+form{
+    text-align: center;
+    justify-content: center;
+    width: 45%;
+    height: 65vh;
+    border:solid 1px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-image: url(/images/contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.right{
+    width: 30%;
+    height: 65vh;
+    margin: 10px;
+    margin-top: 15px;
+    border:solid 1px;
+    border-radius: 10px;
+    background-image: url(/images/contactt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mypeature{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    width: 55%;
+}
+.dofpic{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 55%;
+}
+.differ{
+    width: 100%;
+    height: 20vh;
+}
+h5{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 22px;
+}
+h3{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    width: 95%;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+input[type="last"],
+input[type="first"]{
+    width: 31%;
+    height: 4.5vh;
+    margin: 4px;
+    text-align: center;
+    border-radius:4px;
+    font-size: 16px;
+}
+input[type="full"],
+input[type="email"],
+input[type="phone"],
+input[type="password"]{
+    width:65%;
+    height: 4.5vh;
+    margin: 5px;
+    border-radius:4px;
+    font-size: 16px;
+}
+input[type="submit"]{
+    width: 20%;
+    height: 5.5vh;
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: rgba(72, 184, 184, 0.849);
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.userpict{
+    display: flex;
+    width: 25%;
+}
+.userpictone{
+    width: 100%;
+    height: 10vh;
+}
